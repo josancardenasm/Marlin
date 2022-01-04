@@ -204,7 +204,7 @@
 #define EXP1_10_PIN                        P2_08
 
 #if EITHER(HAS_DWIN_E3V2, IS_DWIN_MARLINUI)
-  #error "Ender-3 V2 display requires a custom cable with TX = P0_15, RX = P0_16. Comment out this line to continue."
+  //#error "Ender-3 V2 display requires a custom cable with TX = P0_15, RX = P0_16. Comment out this line to continue."
 
  /**
   *          Ender 3 V2 display                       SKR E3 Turbo (EXP1)                Ender 3 V2 display --> SKR E3 Turbo
